@@ -1,0 +1,226 @@
+*{
+  margin: 0;
+  border: border-box;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+body{
+  background-color: #f8f5ee;
+}
+/*navnar start*/
+.nav{
+      background-color: #F4F0E5;
+      height: 6vh;
+      padding: 5px;
+      display: flex;
+      align-items: center;
+      gap: 114px;
+      box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;
+      border-bottom: 0.7px solid lightgrey;
+    }
+    
+.menu0{
+  height: 18px;
+  width: 18px;
+  margin-left: 5px;
+}
+
+.logo0{
+  height: 40px;
+  width: 80px;
+}
+/*navbar end*/
+
+.naamJap{
+  height: 20vh;
+  background-color: #f8f5ee;
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 0.7px solid lightgrey;
+  
+}
+
+.mala1{
+  height: 100px;
+  width: 100px;
+  animation: rotate 10s linear infinite; /* Animation name, duration, timing function, iteration count */
+  }
+  
+  @keyframes rotate {
+    from {
+      transform: rotate(0deg); /* Start rotation angle */
+    }
+    to {
+      transform: rotate(360deg); /* End rotation angle */
+    }
+  }
+  
+h2{
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #cc5e33;
+  margin-top: 10px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+/*.inputJap select{
+  border: none;
+  height: 33px;
+  width: 100%;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #cc5e33;
+  padding: 5px;
+  background-color: #f8f5ee;
+  border-bottom: 0.7px solid lightgrey;
+}*/
+
+.inputJap{
+ border-bottom: 0.7px solid lightgrey;
+ padding: 5px;
+}
+
+.inputJap ul{
+ list-style: none; 
+ display: flex;
+ align-items: center;
+ justify-content: space-evenly;
+ margin-right: 35px;
+}
+
+.inputJap ul li a{
+  text-decoration-line: none;
+  color: #cc5e33;
+  font-weight: 550;
+}
+
+.div-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+ }
+
+.JapaClick{
+  height: 20vh;
+  background-color: #f8f5ee;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 0.7px solid lightgrey;
+}
+
+
+  .box {
+    width: 120px;
+    height: 60px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    background-color: bisque;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 100px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    color: #cc5e33;
+  }
+
+  .hide {
+    /*display: none;*/
+  }
+
+.count1{
+  margin-top: 0px;
+  background-color: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 130px;
+  font-weight: 500;
+  font-size: 1rem;
+  color: #cc5e33;
+  background-color: #f8f5ee;
+}
+
+.count1 #counter{
+  margin-bottom: 6.8px;
+}
+
+.count1 button{
+  background-color: bisque;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  font-size: 1rem;
+  color: #cc5e33;
+  border: 0.4px solid lightgrey;
+  border-radius: 4px;
+  font-weight: 500;
+}
+
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    background-image: transparent;
+  }
+
+  .container > img {
+    width: 150px;
+    height: 150px;
+    display: none;
+    transition: transform 0.5s ease;
+  }
+  
+  .container1{
+    height: 20vh;
+    background-color: #f8f5ee;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .blink {
+    animation: blinker 1s linear infinite;
+  }
+
+  @keyframes blinker {
+    50% {
+      opacity: 0;
+    }
+  }
+  
+  .hero-image img{
+    height: 140px;
+  }
+  
+  .hero{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  }
+  
+  .naamJap-fayde{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  
+ .fayde{
+    width: 90%;
+  }
+  
+ .copyright{
+   border-top: 0.9px solid black;
+   padding-top: 10px;
+   margin: 10px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   font-size: 0.6rem;
+ }
+ 
