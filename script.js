@@ -60,3 +60,12 @@ function openNav() {
 function closeNav() {
   document.getElementById("mySidenav").style.width = "0";
 }
+
+function showDialog() {
+            document.getElementById('dialog-container').style.display = 'flex';
+        }
+
+    function closeDialog() {
+    document.getElementById('dialog-container').style.display = 'none';
+        }
+        

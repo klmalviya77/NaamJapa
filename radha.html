@@ -16,10 +16,12 @@
   <div class="nav">
 <div id="mySidenav" class="sidenav">
   <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-  <a href="#">About</a>
-  <a href="#">Services</a>
-  <a href="#">Clients</a>
-  <a href="#">Contact</a>
+  <a href="#" onclick="showDialog()">About Us</a>
+  <a href="#">Books <span class="badge">unavailable</span></a>
+  <a href="#">Satsang <span class="badge">unavailable</a>
+  <a href="#">Mandirs <span class="badge">unavailable</span></a>
+  <a href="#">Mantra <span class="badge">unavailable</span></a>
+  <a href="contact.html">Contact</a>
 </div>
 <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
     <img src="logo.png" alt="logo" class="logo0">
@@ -68,6 +70,16 @@
    <img src="hero.jpg" alt="hero Image">
  </div> 
 </div>
+
+<div class="dialog-container" id="dialog-container">
+ <div class="dialog">
+  <h2>About Us</h2>
+  <p>Welcome to my website! My name is Kuldeep Malviya, and I am currently learning web development.This website represents my very first venture into creating and designing a digital space.In addition to my passion for technology and web development, I have a deep interest in Bhakti (devotion).</p>
+  <p>This spiritual inclination guides many aspects of my life and work, infusing them with a sense of purpose and dedication.As I continue to grow and learn in this field, I aim to combine my technical skills with my spiritual interests to create meaningful and impactful online experiences. Thank you for visiting my website and being a part of my journey.</p>
+  <button class="close-btn" onclick="closeDialog()">Close</button>
+  </div>
+ </div>
+ 
 <footer>
     <div class="social-icon">
       <a href="https://www.facebook.com/kuldeep.malviya.98478" class="fa fa-facebook"></a>
