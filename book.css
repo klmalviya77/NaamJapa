@@ -1,0 +1,167 @@
+*{
+  margin: 0;
+  border: border-box;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+body{
+  background-color: #f8f5ee;
+}
+/*navnar start*/
+.nav{
+      background-color: #F4F0E5;
+      height: 6vh;
+      padding: 5px;
+      display: flex;
+      align-items: center;
+      gap: 116px;
+      box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;
+      border-bottom: 0.7px solid lightgrey;
+    }
+    
+/* The side navigation menu */
+.sidenav {
+  height: 100%; /* 100% Full-height */
+  width: 0; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  background-color: #F4F0E5; /* Black*/
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 60px; /* Place content 60px from the top */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+/* The navigation menu links */
+.sidenav a {
+  padding: 8px 8px 8px 20px;
+  text-decoration: none;
+  font-size: 1rem;
+  color: black;
+  display: block;
+  transition: 0.3s;
+  gap: 50px;
+  border-bottom: 0.7px solid lightgrey;
+  
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+ 
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+  transition: margin-left .5s;
+  padding: 20px;
+}
+
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+
+.logo0{
+  height: 35px;
+  width: 70px;
+}
+/*navbar end*/
+
+.naamJap{
+  height: 20vh;
+  background-color: #f8f5ee;
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 0.7px solid lightgrey;
+  
+}
+
+   .badge {
+        background-color: red;
+        color: white;
+        border-radius: 50%;
+        padding: 5px;
+        font-size: 5px;
+   }
+   
+
+.search {
+  margin: 8px;
+  height: 40px;
+  border-radius: 4px;
+  background-color: #f8f5ee;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#list-search {
+  width: 285px;
+  height: 38px;
+  border: 0.7px solid lightgrey;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  outline: none;
+}
+
+.category {
+  width: 100px;
+  height: 41px;
+  background-color: white;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  border: 0.7px solid lightgrey;
+  outline: none;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.search-container {
+  margin-top: 15px;
+  padding: 0px 8px 0px 8px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+#not-found {
+      display: none;
+      color: red;
+      font-weight: bold;
+      text-align: center;
+    }
+
+li {
+  /*background-color: red;*/
+  padding: 10px;
+  border: 0.7px solid lightgrey;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+li i.fa-solid.fa-book {
+      margin-right: 8px; /* Adjust the spacing as needed */
+      font-size: 20px;
+    }
+
+ li i.fa-solid.fa-angle-right {
+      margin-left: auto; /* Pushes the angle-right icon to the right */
+    }
+  
+  li a{
+    color: black;
+    text-decoration: none;
+  }

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="book.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>Books</title>
+</head>
+<body>
+ <div class="nav">
+   <div id="mySidenav" class="sidenav">
+     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+     <a href="book.html">Books <span class="badge">New</span></a>
+     <a href="#">Satsang <span class="badge">unavailable</a>
+     <a href="#">Mandirs <span class="badge">unavailable</span></a>
+     <a href="#">Mantra <span class="badge">unavailable</span></a>
+     <a href="contact.html">Contact</a>
+     <a href="#" onclick="showDialog()">About Us</a>
+   </div>
+   <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
+   <img src="logo.png" alt="logo" class="logo0">
+ </div>
+ <div class="search">
+  <input type="text" id="list-search" placeholder="Search....."> 
+  <select class="category" id="categorySelect">
+    <option value="all">All</option>
+    <option value="geeta">Geeta</option>
+    <option value="puran">Puran</option>
+    <option value="upa-puran">Upa Puran</option>
+    <option value="ved">Ved</option>
+    <option value="brahmacharya">Brahmacharya</option>
+  </select>
+ </div>
+  
+  <div class="search-container">
+    <ul id="itemList">
+     <li data-category="geeta">
+        <i class="fa-solid fa-book"></i>
+        <h5><a href="https://online.visual-paradigm.com/share/book/bhagavad-gita-hindi-1rv79yfr5w?p=1">Bhagwad Geeta</a></h5>
+        <i class="fa-solid fa-angle-right"></i>
+        </li>
+     <li data-category="puran"> 
+     <i class="fa-solid fa-book"></i>
+     <h5><a href="https://online.visual-paradigm.com/share/book/vishnu-puran-1rvt7c8se2?p=1">Vishnu Purana</a></h5>
+         <i class="fa-solid fa-angle-right"></i></li>
+     <li data-category="puran">        
+     <i class="fa-solid fa-book"></i>
+         <h5><a href="https://online.visual-paradigm.com/share/book/brahamand-1rvu60nh3z?p=1">Brahamand</a></h5>
+             <i class="fa-solid fa-angle-right"></i></li>
+     <li data-category="puran">        
+     <i class="fa-solid fa-book"></i>
+             <h5><a href="https://online.visual-paradigm.com/share/book/padam-puran-1rvuctou7c?p=1">Padam Puran</a></h5>
+             <i class="fa-solid fa-angle-right"></i></li>
+     <li data-category="puran">
+        <i class="fa-solid fa-book"></i>
+         <h5><a href="https://online.visual-paradigm.com/share/book/bramha-1rw41dktdc?p=1">Bramha</a></h5>
+               <i class="fa-solid fa-angle-right"></i>
+     </li>
+        <li data-category="puran">
+         <i class="fa-solid fa-book"></i>
+          <h5><a href="https://online.visual-paradigm.com/share/book/nard-puran-1rxxjb7ege?p=1">Narad Puran</a></h5>
+          <i class="fa-solid fa-angle-right"></i>
+        </li>
+        
+  <li data-category="puran">
+       <i class="fa-solid fa-book"></i>
+       <h5><a href="https://online.visual-paradigm.com/share/book/shiv-puran-copy-1rxxq1oj42?p=1">Shiv Puran</a></h5>
+       <i class="fa-solid fa-angle-right"></i>
+     </li>
+    <li data-category="puran">
+      <i class="fa-solid fa-book"></i>
+      <h5><a href="https://online.visual-paradigm.com/share/book/vayu-purana-1rxxyi8tzu?p=1">Vayu Puran</a></h5>
+      <i class="fa-solid fa-angle-right"></i>
+    </li>
+    <li data-category="upa-puran">
+      <i class="fa-solid fa-book"></i>
+      <h5><a href="https://online.visual-paradigm.com/share/book/narsimha-1rxy7uu3g8?p=1">Narsimha Puran</a></h5>
+      <i class="fa-solid fa-angle-right"></i>
+    </li>
+     <li data-category="upa-puran">
+       <i class="fa-solid fa-book"></i>
+       <h5><a href="https://online.visual-paradigm.com/share/book/kalki-puran-hindi-1ry156z8xc?p=1">Kalki Puran</a></h5>
+       <i class="fa-solid fa-angle-right"></i>
+     </li>
+      <li data-category="ved">
+       <i class="fa-solid fa-book"></i>
+       <h5><a href="https://online.visual-paradigm.com/share/book/arthved-part-1-1ry1fgqxbj?p=1">Arthved Part-1</a></h5>
+       <i class="fa-solid fa-angle-right"></i>
+     </li>
+           <li data-category="ved">
+             <i class="fa-solid fa-book"></i>
+             <h5><a href="https://online.visual-paradigm.com/share/book/atharva-2-1ry1l1dzic?p=1">Arthved Part-2</a></h5>
+             <i class="fa-solid fa-angle-right"></i>
+           </li>
+      <li data-category="ved">
+      <i class="fa-solid fa-book"></i>
+       <h5><a href="https://online.visual-paradigm.com/share/book/rigved-1ry1rwf3eb?p=1">Rigved</a></h5>
+             <i class="fa-solid fa-angle-right"></i>
+           </li>   
+        <li data-category="ved">
+          <i class="fa-solid fa-book"></i>
+          <h5><a href="https://online.visual-paradigm.com/share/book/samved-1ry2l8onal?p=1">Samved</a></h5>
+          <i class="fa-solid fa-angle-right"></i>
+        </li>
+          <li data-category="ved">
+            <i class="fa-solid fa-book"></i>
+            <h5><a href="https://online.visual-paradigm.com/share/book/yajurved-1ry2u4mhzb?p=1">Yajurved</a></h5>
+            <i class="fa-solid fa-angle-right"></i>
+          </li>
+    </ul>
+    <div id="not-found">No items found</div>
+  </div>
+  
+ <script src="book.js"></script>
+</body>
+</html>

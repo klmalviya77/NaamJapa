@@ -5,23 +5,25 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="contact.css">
   <title>Contact us</title>
-<form name="contact" method="POST" data-netlify="true">
-  <input type="hidden" name="subject" data-remove-prefix
-  value="Sales inquiry from naamjapabhakti.netlify.app" />
-  
-<div class="container">
-  <div class="card">
-    <form action="https://api.web3forms.com/submit" method="POST">
-    <div class="heading">
-      <h3>Contact Us</h3></div>
-    <div class="main">
-      <input type="hidden" name="access_key" value="866c0c79-fcd5-45ba-87c8-fe3191b4766a
-">
-    <input type="text" name="name" placeholder="Your Name" class="contact-input" required>
-    <input type="text" name="email" placeholder="Your Email" class="contact-input" required>
-    <textarea name="massage" placeholder="Your Massage" class="contact-input" required></textarea>
-    <button type="submit">Sumbit</button>
-  </div>
-  </div>
-</div>
-</form>
+</head>
+<body>
+  <form action="https://api.web3forms.com/submit" method="POST">
+    <input type="hidden" name="access_key" value="866c0c79-fcd5-45ba-87c8-fe3191b4766a">
+    <input type="hidden" name="subject" value="Sales inquiry from naamjapabhakti.netlify.app">
+
+    <div class="container">
+      <div class="card">
+        <div class="heading">
+          <h3>Contact Us</h3>
+        </div>
+        <div class="main">
+          <input type="text" name="name" placeholder="Your Name" class="contact-input" required>
+          <input type="email" name="email" placeholder="Your Email" class="contact-input" required>
+          <textarea name="message" placeholder="Your Message" class="contact-input" required></textarea>
+          <button type="submit">Submit</button>
+        </div>
+      </div>
+    </div>
+  </form>
+</body>
+</html>
